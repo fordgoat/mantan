@@ -1,4 +1,4 @@
-#Recoded By @Its_Tartaglia_Childe
+#Recoded By @TopGroupChat
 
 
 
@@ -87,11 +87,11 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
     [
-        InlineKeyboardButton("𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url="https://t.me/Its_Tartaglia_Childe"),
+        InlineKeyboardButton("Wajib Join", url="https://t.me/TopGroupChat"),
     ],
     [
-                    InlineKeyboardButton("⚠️ About Me Dude ⚠️", callback_data = "about"),
-                    InlineKeyboardButton("✌️ OFF ✌️", callback_data = "close")
+                    InlineKeyboardButton("Tentang saya", callback_data = "about"),
+                    InlineKeyboardButton("tutup", callback_data = "close")
         
     ]
             ]
@@ -125,18 +125,18 @@ REPLY_ERROR = "<code>Use this command as a reply to any telegram message without
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="💞 ᴍᴀɪɴ ᴄʜᴀɴᴇʟ 💞", url=client.invitelink),
-            InlineKeyboardButton(text="💞 ꜱᴇᴄᴏɴᴅ ᴄʜᴀɴᴇʟ 💞", url=client.invitelink2),
+            InlineKeyboardButton(text="JOIN 1", url=client.invitelink),
+            InlineKeyboardButton(text="JOIN 2", url=client.invitelink2),
         ],
         [
-            InlineKeyboardButton(text="💞 ɢʀᴏᴜᴘ ᴄʜᴀᴛ 💞", url=client.invitelink3),
+            InlineKeyboardButton(text="JOIN 3", url=client.invitelink3),
         ]
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = 'COBA LAGI',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
@@ -174,7 +174,7 @@ async def send_text(client: Bot, message: Message):
         deleted = 0
         unsuccessful = 0
         
-        pls_wait = await message.reply("<i>Broadcast Proccessing Till Wait Dude... </i>")
+        pls_wait = await message.reply("<i>Broadcast sedang dilakukan... </i>")
         for chat_id in query:
             try:
                 await broadcast_msg.copy(chat_id)
@@ -194,7 +194,7 @@ async def send_text(client: Bot, message: Message):
                 pass
             total += 1
         
-        status = f"""<b><u>ʙʀᴏᴀᴅᴄᴀꜱᴛ...</u>
+        status = f"""<b><u>BROADCAST...</u>
 
 Total Users: <code>{total}</code>
 Successful: <code>{successful}</code>
