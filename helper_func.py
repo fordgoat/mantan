@@ -1,5 +1,5 @@
 #(©)Codexbotz
-#Recoded By @Its_Tartaglia_Childe
+#Recoded By @TopGroupChat
 
 import base64
 import re
