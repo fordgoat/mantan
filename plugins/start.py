@@ -54,11 +54,11 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("Wait Dude...")
+        temp_msg = await message.reply("Tunggu Sebentar...")
         try:
             messages = await get_messages(client, ids)
         except:
-            await message.reply_text("I Feel like there is Something wrong..!")
+            await message.reply_text("Telah terjadi error..!")
             return
         await temp_msg.delete()
 
@@ -113,9 +113,9 @@ async def start_command(client: Client, message: Message):
 
 #=====================================================================================##
 
-WAIT_MSG = "<b>Working....</b>"
+WAIT_MSG = "<b>Sedang Broadcast....</b>"
 
-REPLY_ERROR = "<code>Use this command as a reply to any telegram message without any spaces.</code>"
+REPLY_ERROR = "<code>Gunakan Perintah ini Harus Sambil Reply ke pesan telegram yang ingin di Broadcast</code>"
 
 #=====================================================================================##
 
