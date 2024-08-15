@@ -87,11 +87,11 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
     [
-        InlineKeyboardButton("Wajib Join", url="https://t.me/TopGroupChat"),
+        InlineKeyboardButton("SUBSCRIBE", url="https://t.me/TopGroupChat"),
     ],
     [
-                    InlineKeyboardButton("Tentang saya", callback_data = "about"),
-                    InlineKeyboardButton("tutup", callback_data = "close")
+                    InlineKeyboardButton("VVIP", callback_data = "about"),
+                    InlineKeyboardButton("CLOSE", callback_data = "close")
         
     ]
             ]
