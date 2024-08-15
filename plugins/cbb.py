@@ -33,7 +33,7 @@ PC @HeadSchool Kalau limit bisa pc bot @SchoolServiceBOT
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("☠️ Close ☠️", callback_data = "close")
+                        InlineKeyboardButton("TUTUP", callback_data = "close")
                     ]
                 ]
             )
