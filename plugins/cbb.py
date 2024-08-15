@@ -1,5 +1,5 @@
 #(©)Codexbotz
-#Recoded By @Its_Tartaglia_Childe
+#Recoded By @TopGroupChat
 
 from pyrogram import __version__
 from bot import Bot
@@ -11,7 +11,24 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>┏━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┓\n┃ Dҽʋҽʅσρҽɾ : <a href='tg://user?id={5205293211}'>Hōᴛᴀʀō Oʀᴇᴋɪ</a>\n┃ ¢яєαтσя : <a href='tg://user?id={OWNER_ID}'> тнιѕ ℓєgєη∂ вσу </a>\n┃ Lαɳɠυαɠҽ : <code>Python3</code>\n┃ LιႦɾαɾყ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n┃ ѕσυя¢є ¢σ∂є : <a href=https://t.me/Its_Oreki_Hotarou>тαℓк тσ нιм</a>\n┃ мαιη ¢нαηηєℓ : <a href=https://t.me/Anime_X_Hunters>​Anime X Hunters​</a>\n┃ Sυρρσɾƚ Gɾσυρ : <a href=https://t.me/Hunters_Discussion>ѕυρρσят gяσυρ</a>\n┗━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┛</b>",
+            text = f"""
+𝗣𝗥𝗜𝗖𝗘 𝗟𝗜𝗦𝗧 𝗩𝗩𝗜𝗣 💰
+
+— VVIP INDO : Rp. 30.000,-
+— VVIP HIJAB : Rp. 35.000,-
+— VVIP ONLYFANS : Rp. 35.000,-
+— VVIP CAMPURAN : Rp. 30.000,-
+— VVIP JAV HD : Rp. 35.000,-
+— VVIP LIVE RECORD : Rp. 30.000,-
+
+— VVIP PREMIUM : Rp. 100.000,-
+
+PROMO HEMAT 🪙
+— Rp. 165.000 TAKE ALL CHANNNEL VVIP NO PREMIUM
+— Rp. 225.000 TAKE ALL CHANNEL VVIP WITH PREMIUM
+
+PC @HeadSchool Kalau limit bisa pc bot @SchoolServiceBOT
+            """,
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
