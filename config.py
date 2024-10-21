@@ -49,11 +49,11 @@ except ValueError:
 
 #Force sub message 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", """
-Hai {mention}
+SILAHKAN JOIN TERLEBIH DAHULU KE CHANNEL YANG ADA DIBAWAH UNTUK MELIHAT FILE YANG SAYA BAGIKAN
 
-Anda harus join terlebih dahulu ke channel melalui tombol dibawah, jika sudah silahkan tekan COBA LAGI!
+JIKA SUDAH SILAHKAN TEKAN "COBA LAGI"
 
-VVIP PEKOB @VvipSchool
+VVIP PEKOB : @VvipSchool
 """)
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
