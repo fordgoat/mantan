@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "29486311"))
 API_HASH = os.environ.get("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002351816223"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002303051781"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6396921435"))
@@ -42,7 +42,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hai {mention}\n\nIni adalah bot file sharing\nKamu bisa mendapatkan video melalui link yang saya bagikan..!")
 try:
     ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "1707380693 6396921435 6291921516").split()):
+    for x in (os.environ.get("ADMINS", "7204926008 6396921435 6664904115").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
