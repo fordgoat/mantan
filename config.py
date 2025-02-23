@@ -39,10 +39,10 @@ FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002070482541"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hai {mention}\n\nIni adalah bot file sharing\nKamu bisa mendapatkan video melalui link yang saya bagikan..!")
+START_MSG = os.environ.get("START_MESSAGE", "Hai {mention}\n\nNYARI BOKEP? LANGSUNG KEPOIN @TESTIVVIPKILA..!")
 try:
     ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "7204926008 6396921435 6664904115").split()):
+    for x in (os.environ.get("ADMINS", "1613540894 6396921435 6664904115").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -53,7 +53,7 @@ SILAHKAN JOIN TERLEBIH DAHULU KE CHANNEL YANG ADA DIBAWAH UNTUK MELIHAT FILE YAN
 
 JIKA SUDAH SILAHKAN TEKAN "COBA LAGI"
 
-VVIP PEKOB : @VvipSchool
+VVIP PEKOB : @TestiVvipKila
 """)
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
