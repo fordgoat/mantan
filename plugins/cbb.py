@@ -14,20 +14,22 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text = f"""
 𝗣𝗥𝗜𝗖𝗘 𝗟𝗜𝗦𝗧 𝗩𝗩𝗜𝗣 💰
 
-— VVIP INDO : Rp. 45.000,-
+— VVIP INDO : Rp. 50.000,-
 — VVIP HIJAB : Rp. 50.000,-
-— VVIP ONLYFANS : Rp. 50.000,-
-— VVIP CAMPURAN : Rp. 45.000,-
-— VVIP JAV HD : Rp. 40.000,-
-— VVIP LIVE RECORD : Rp. 45.000,-
+— VVIP ONLYFANS : Rp. 55.000,-
+— VVIP CAMPURAN : Rp. 50.00,-
+— VVIP JAV HD : Rp. 50.000,-
+— VVIP LIVE RECORD : Rp. 50.000,-
+— VVIP PELAJAR : Rp. 55.000,-
+— VVIP BARAT : Rp. 50.000,-
 
-— VVIP PREMIUM : Rp. 115.000,-
+— VVIP PREMIUM SULTAN : Rp. 150.000,-
 
 PROMO HEMAT 🪙
-— Rp. 250.000 TAKE ALL CHANNNEL VVIP NO PREMIUM
-— Rp. 335.000 TAKE ALL CHANNEL VVIP WITH PREMIUM
+— Rp. 325.000 TAKE ALL CHANNNEL VVIP NO PREMIUM
+— Rp. 450.000 TAKE ALL CHANNEL VVIP + PREMIUM SULTAN
 
-PC @HeadSchool Kalau limit bisa pc bot @SchoolServiceBOT
+PC @kilashikii
             """,
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
