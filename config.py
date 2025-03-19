@@ -25,16 +25,16 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002303051781"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "6396921435"))
 
 #Port
-PORT = os.environ.get("PORT", "9993")
+PORT = os.environ.get("PORT", "5293")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ucik:ucik@cluster0.0l3r8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "biji")
+DB_NAME = os.environ.get("DATABASE_NAME", "mantan")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002266714167"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002035542868"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002070482541"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002065151503"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002273575059"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1001721745890"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
